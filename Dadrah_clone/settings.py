@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core',
-    'users',
+    'my_core',
+    'my_users',
 ]
 
 MIDDLEWARE = [
@@ -115,7 +115,7 @@ USE_TZ = True
 
 ###########################################################
 # I ADDED:
-AUTH_USER_MODEL = "users.Users"
+# AUTH_USER_MODEL = "my_users.Users"
 ###########################################################
 
 
